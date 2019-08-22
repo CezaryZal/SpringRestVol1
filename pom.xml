@@ -10,6 +10,8 @@
     <packaging>war</packaging>
 
     <properties>
+        <springframework.version>5.1.5.RELEASE</springframework.version>
+
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
@@ -20,7 +22,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.0.5.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
 
         <!-- Add Jackson for JSON converters -->
