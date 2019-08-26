@@ -1,4 +1,4 @@
-package spring.config;
+package com.CezaryZal.spring.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
